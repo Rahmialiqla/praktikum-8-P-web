@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header, footer {
+    background-color: yellow;
+    height: 2em;
+}
+main {
+    display: flex;
+    height: 10em;
+}
+article {
+    background-color: purple;
+    flex: 2;
+}
+aside {
+    background-color: aqua;
+    flex: 1;
+}
+nav {
+    background-color: pink;
+    float: left;
+    width: 5em;
+    height: 14em;
+}
